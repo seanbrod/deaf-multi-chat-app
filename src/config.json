@@ -1,0 +1,14 @@
+{
+    "base":
+    {
+        "assets":"assets",
+        "data":"data"
+    },
+    "paths":
+    {
+        "index":"index.html",
+        "model":"ggml-medium.en.bin",
+        "testF":"samp.wav"
+
+    }
+}
