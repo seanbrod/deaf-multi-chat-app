@@ -1,1 +1,100 @@
-2025-02-22 20:31:23,052 - __main__ - INFO - File Deleted
+2025-02-22 22:17:02,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-22 22:17:02,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 22:17:06,814 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:06] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-22 22:17:08,323 - __main__ - INFO - Toggle Start
+2025-02-22 22:17:08,323 - __main__ - INFO - Thread Starting
+2025-02-22 22:17:08,323 - back_whisper - INFO - Running...
+2025-02-22 22:17:08,323 - __main__ - INFO - Thread Running
+2025-02-22 22:17:08,342 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:08] "POST /toggle_listening HTTP/1.1" 200 -
+2025-02-22 22:17:09,437 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:09,470 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:09] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:10,431 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:10,446 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:10] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:11,431 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:11,446 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:11] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:12,429 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:12,444 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:12] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:13,451 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:13,466 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:13] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:17,198 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:17,198 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:17] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:17,203 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:17,205 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:17] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:17,207 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:17,207 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:17] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:17,389 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:17,393 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:17] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:18,396 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:18,397 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:18] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:19,382 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:19,382 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:19] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:20,378 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:20,378 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:20] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:21,385 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:21,387 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:21] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:21,596 - back_whisper - INFO - File Deleted
+2025-02-22 22:17:25,647 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:25,649 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:25] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:25,651 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:25,651 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:25] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:25,654 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:25,654 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:25] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:25,656 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:25,657 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:25] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:26,389 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:26,389 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:26] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:27,386 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:27,390 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:27] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:28,393 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:28,394 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:28] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:29,383 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:29,385 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:29] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:29,450 - back_whisper - INFO - File Deleted
+2025-02-22 22:17:33,485 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:33,485 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:33] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:33,492 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:33,493 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:33] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:33,496 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:33,496 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:33] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:33,501 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:33,502 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:33] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:34,390 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:34,393 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:34] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:35,388 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:35,390 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:35] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:36,117 - __main__ - INFO - Toggle Start
+2025-02-22 22:17:36,118 - back_whisper - INFO - Running...
+2025-02-22 22:17:41,441 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:41,441 - back_whisper - INFO - File Deleted
+2025-02-22 22:17:41,441 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:41] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:42,458 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:42,461 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:42] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:42,471 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:42,474 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:42] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:42,496 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:42,499 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:42] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:46,371 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:46,371 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:46] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:48,979 - back_whisper - INFO - File Deleted
+2025-02-22 22:17:50,309 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:50,310 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:50] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:50,334 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:50,337 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:50] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:50,386 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:50,389 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:50] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:57,686 - back_whisper - INFO - File Deleted
+2025-02-22 22:17:58,838 - __main__ - INFO - Toggle Start
+2025-02-22 22:17:58,840 - __main__ - INFO - Thread Starting
+2025-02-22 22:17:58,852 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:58,859 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:58] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:17:58,860 - back_whisper - INFO - Running...
+2025-02-22 22:17:58,860 - __main__ - INFO - Thread Running
+2025-02-22 22:17:58,864 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:58] "POST /toggle_listening HTTP/1.1" 200 -
+2025-02-22 22:17:58,935 - __main__ - INFO - Live Input Start
+2025-02-22 22:17:58,939 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:17:58] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:18:05,915 - back_whisper - INFO - File Deleted
+2025-02-22 22:18:06,662 - __main__ - INFO - Live Input Start
+2025-02-22 22:18:06,666 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 22:18:06] "GET /get_live_input HTTP/1.1" 200 -
+2025-02-22 22:18:13,318 - __main__ - INFO - Starting App
+2025-02-22 22:18:13,318 - back_whisper - INFO - File Deleted

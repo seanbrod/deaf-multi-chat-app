@@ -4,6 +4,7 @@ import onnxruntime as ort
 from onnxruntime_extensions import get_library_path
 import numpy as np
 import sounddevice as sd
+from value_singleton import shared_value
 
 #DOCS
 
@@ -59,6 +60,7 @@ def transcribe(file):
         text_output = str(outputs[0])  
 
     print(text_output)
+    shared_value.update_str(text_output)
 
     try:
         os.remove(file)
@@ -104,9 +106,11 @@ def user_input(input):
         if command.lower() == "exit":
             running = False
             print("Stopping recording...")
+            logger.info("Transcription Stopped")
 
 def run(cmd):
     global running
+    logger.info("Running...")
 
     recording_thread = threading.Thread(target=record_audio)
     recording_thread.daemon = True
@@ -122,12 +126,6 @@ def run(cmd):
     recording_thread.join()
     transcription_thread.join()
 
-    print("Recording has stopped. All files saved and transcribed.")
+    logger.info("Recording has stopped. All files saved and transcribed.")
 
-def main():
-    #transcribe(data_test_path)
-    run()
-
-if __name__ == "__main__":
-    main()
 

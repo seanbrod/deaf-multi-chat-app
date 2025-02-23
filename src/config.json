@@ -15,7 +15,7 @@
     },
     "constants":
     {
-        "duration": 3,
+        "duration": 5,
         "smp_rate": 44100,
         "channels": 1,
         "dev_id": 1,
