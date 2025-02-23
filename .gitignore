@@ -5,3 +5,4 @@ data
 assets
 venv
 hack
+__pycache__
