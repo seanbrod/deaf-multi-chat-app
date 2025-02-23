@@ -2,13 +2,24 @@
     "base":
     {
         "assets":"assets",
-        "data":"data"
+        "data":"data",
+        "ed":".."
     },
     "paths":
     {
         "index":"index.html",
-        "model":"ggml-medium.en.bin",
-        "testF":"samp.wav"
-
+        "model_cpu":"cpu_model.onnx",
+        "model_gpu":"gpu_model.onnx",
+        "testF":"Recording.wav",
+        "log":"app.log"
+    },
+    "constants":
+    {
+        "duration": 3,
+        "smp_rate": 44100,
+        "channels": 1,
+        "dev_id": 1,
+        "run": true,
+        "exit_dir": ".."
     }
 }
