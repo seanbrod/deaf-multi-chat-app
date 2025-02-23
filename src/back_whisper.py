@@ -6,9 +6,6 @@ import numpy as np
 import sounddevice as sd
 from value_singleton import shared_value
 
-#DOCS
-
-
 with open('config.json', 'r') as file:
     config = json.load(file)
 

@@ -5,7 +5,7 @@ from value_singleton import shared_value
 
 app = Flask(__name__)
 
-# Load config.json (if needed)
+#load config.json (if needed)
 config_path = os.path.join(os.path.dirname(__file__), 'config.json')
 if os.path.exists(config_path):
     with open(config_path, 'r') as file:
@@ -21,11 +21,11 @@ logging.basicConfig(filename=log_path, level=logging.INFO,
 
 index_path = os.path.join(os.path.dirname(__file__), config['paths']['index'])
 
-# Variable to track listening state
+#variable to track listening state
 listening = False
 
 def run_in_background():
-    run('foo')  # This will run in a separate thread
+    run('foo')  #this will run in a separate thread
 
 @app.route('/toggle_listening', methods=['POST'])
 def toggle_listening():
