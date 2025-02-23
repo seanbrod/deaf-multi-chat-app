@@ -31,3 +31,10 @@ pip install -r requirements.txt
 ```bash
 cd src && python main.py
 ```
+- When running go to app.log and ctrl+click on the http://127.0.0.1:5000 link to open the application in your web browser
+
+## Using the Application
+
+- Click **Start Generarting** to start the transcription
+
+- Click **Stop Generating** to stop the transcription
